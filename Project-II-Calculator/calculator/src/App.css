@@ -1,6 +1,5 @@
 .container {
     width: 454px;
-    border: 1px solid blue;
     margin: 0 auto;
     height: 598px;
 }
@@ -17,5 +16,4 @@
 .numbers-container {
     width: 100%;
     display: flex;
-    border: 1px solid red;
 }

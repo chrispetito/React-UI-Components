@@ -1,9 +1,15 @@
 .number {
     color: black;
-    background: red;
-    width: 113px;
-    height: 93px;
+    background: white;
+    border: 0.5px solid #c4c4c4;
+    width: 112px;
+    height: 94px;
     display: inline-block;
+    font-size: 2.6rem;
+}
+.number:focus {
+    outline-width: 0;
+    border: 0.5px solid #4f4f4f;
 }
 .action1 {
     width: 454px;
@@ -16,10 +22,30 @@
     justify-content: flex-end;
     font-size: 5rem;
 }
+.action1:focus { 
+    outline-width: 0;
+
+}
 .action2 {
-    width: 339px;
-    height: 93px;
+    width: 336px;
+    height: 94px;
     background: white;
     color: black;
-    border: none;
+    border: 0.5px solid #c4c4c4;
+    font-size: 2.6rem;
+}
+.action2:focus {
+    outline-width: 0;
+    border: 0.5px solid #4f4f4f;
+}
+.display-button {
+    background: #A0011E;
+    color: white;
+    height: 94px;
+    width: 117px;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+}
+.display-button:focus {
+    outline-width: 0;
 }
