@@ -1,0 +1,19 @@
+.container {
+    width: 454px;
+    margin: 0 auto;
+    height: 598px;
+}
+.clearButton {
+    width: 339px;
+    height: 93px;
+    border-radius: 0;
+    color: black;
+    background-color: white;
+    font-size: 2.8rem;
+    padding-bottom: 0.5rem;
+    font-weight: normal;
+}
+.numbers-container {
+    width: 100%;
+    display: flex;
+}
