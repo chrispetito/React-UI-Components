@@ -1,0 +1,25 @@
+.number {
+    color: black;
+    background: red;
+    width: 113px;
+    height: 93px;
+    display: inline-block;
+}
+.action1 {
+    width: 454px;
+    height: 128px;
+    color: white;
+    background: black;
+    margin: 0;
+    border-radius: 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 5rem;
+}
+.action2 {
+    width: 339px;
+    height: 93px;
+    background: white;
+    color: black;
+    border: none;
+}
