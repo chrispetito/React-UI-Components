@@ -7,6 +7,9 @@
     display: inline-block;
     font-size: 2.6rem;
 }
+.number:hover {
+    cursor: pointer;
+}
 .number:focus {
     outline-width: 0;
     border: 0.5px solid #4f4f4f;
